@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>McBonald's</title>
+                <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Roboto" rel="stylesheet">
+        <link href="CSS.css" rel="stylesheet" type="text/css">
+        <link href="style-pedidos.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="index.html#hamburgueres">Hambúrgueres</a></li>
+                        <li><a href="index.html#shakes">Shakes</a></li>
+                        <li><a href="index.html#historia">História</a></li>
+                        <li><a href="index.html#local">Local</a></li>
+                        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                        <li><a href="pedidos.html">Peça já!</a></li>
+                </ul>
+            </nav>
+            <hgroup>
+                <h1>McBonald's</h1>
+                <h2>Pede aí, jovem!</h2>
+            </hgroup>
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input id="nome" type="text" maxlength="50" minlength="2">
+                <label for="end">Endereço de Entrega</label>
+                <input id="end" type="text" maxlength="50" minlength="3">
+                <label for="telefone">Telefone para contato</label>
+                <input id="telefone" type="text" maxlength="50" minlength="3">
+                <label for="email">E-mail para promoções!</label>
+                <input id="email" type="text" maxlength="50"  minlength="3">
+            <div id="flex">
+                <div>
+                    <label for="hamburguer">Hamburguer</label><br>
+                    <select id="hamburguer">
+                        <option value="selecione" disabled selected>Selecione</option>
+                        <option value="black_burguer"> Gótico Suave</option>
+                        <option value="combo">Super Combo</option>
+                        <option value="vegano">Vegeburguer</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="shake">Shake</label><br>
+                    <select id="shake">
+                        <option value="selecione" disabled selected>Selecione</option>
+                        <option value="biscoito"> Biscoito</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="morango">Morango</option>
+                    </select>
+                </div>
+            </div>
+                <input type=submit value="Finalizar Pedido!">
+            </form>
+        </main>
+        <footer>
+            <br>
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+            <br>
+            <a href="#">Voltar para o topo!</a>
+        </footer>
+    </body>
+</html>
